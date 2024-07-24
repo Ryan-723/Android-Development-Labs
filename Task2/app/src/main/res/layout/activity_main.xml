@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/pink"
+        android:theme="?android:attr/actionBarTheme"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:title="@string/tastyRecipes"
+        app:titleTextAppearance="@style/Toolbar.TitleText"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/txtRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:textSize="32dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/pink"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:background="@drawable/border_design"
+            android:layout_height="42dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginHorizontal="18dp"
+            android:paddingLeft="24dp"
+            android:drawablePadding="18dp"
+            android:hint="@string/name"
+            android:drawableLeft="@drawable/ic_action_name"
+            android:textColorHint="@color/pink" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginHorizontal="18dp"
+            android:paddingLeft="24dp"
+            android:drawablePadding="18dp"
+            android:background="@drawable/border_design"
+            android:hint="@string/email"
+            android:drawableLeft="@drawable/ic_action_email"
+            android:textColorHint="@color/pink" />
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginHorizontal="18dp"
+            android:paddingLeft="24dp"
+            android:drawablePadding="18dp"
+            android:background="@drawable/border_design"
+            android:hint="@string/password"
+            android:drawableLeft="@drawable/ic_action_password"
+            android:textColorHint="@color/pink" />
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginHorizontal="18dp"
+            android:paddingLeft="24dp"
+            android:drawablePadding="18dp"
+            android:background="@drawable/border_design"
+            android:hint="@string/confirmPassword"
+            android:drawableLeft="@drawable/ic_action_password"
+            android:textColorHint="@color/pink" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:background="@drawable/border_design"
+            android:layout_height="42dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginHorizontal="18dp"
+            android:paddingLeft="24dp"
+            android:drawablePadding="18dp"
+            android:hint="@string/address"
+            android:drawableLeft="@drawable/ic_action_location"
+            android:textColorHint="@color/pink" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/register"
+            android:text="@string/register"
+            android:layout_marginTop="18dp"
+            android:layout_marginHorizontal="18dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/pink"
+            android:background="@drawable/border_design"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/existingUser"
+            android:textColor="@color/pink"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:textSize="15dp"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/login"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/pink"
+            android:layout_marginTop="18dp"
+            android:layout_marginHorizontal="18dp"
+            android:text="@string/login"
+            android:background="@drawable/border_design"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Task5</string>
+    <string name="productNameHint">Product Name</string>
+    <string name="productCost">Product Cost</string>
+    <string name="submitButton">Submit</string>
+    <string name="product_details">Product Details</string>
+</resources>

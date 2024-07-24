@@ -1,0 +1,39 @@
+<resources>
+    <string name="appName">Assignment1</string>
+    <string name="title">Delightful Beverage</string>
+    <string name="customerNameHint">Enter Customer Name</string>
+    <string name="emailHint">Enter Email Address</string>
+    <string name="phoneNumberHint">Enter Phone Number</string>
+    <string name="typeOfBeverageText">Choose Your Beverage</string>
+    <string name="coffeeTitle">Coffee</string>
+    <string name="teaTitle">Tea</string>
+    <string name="additionalsTitle">Additions</string>
+    <string name="milkTitle">Milk</string>
+    <string name="sugarTitle">Sugar</string>
+    <string name="beverageSizeTitle">Select Beverage Size</string>
+    <string name="smallTitle">Small</string>
+    <string name="mediumTitle">Medium</string>
+    <string name="largeTitle">Large</string>
+    <string name="flavouringsTitle">Flavour Choices</string>
+    <string name="regionTitle">Choose Your Region</string>
+    <string name="storeTitle">Select Store Location</string>
+    <string name="dateHint">Sales Date</string>
+    <string name="buttonTitle">Generate Invoice</string>
+
+    <string-array name="coffee_flavourings">
+        <item>None</item>
+        <item>Pumpkin Spice</item>
+        <item>Chocolate</item>
+    </string-array>
+    <string-array name="tea_flavourings">
+        <item>None</item>
+        <item>Lemon</item>
+        <item>Ginger</item>
+    </string-array>
+    <string-array name="region_choices">
+        <item>Waterloo</item>
+        <item>London</item>
+        <item>Milton</item>
+        <item>Mississauga</item>
+    </string-array>
+</resources>

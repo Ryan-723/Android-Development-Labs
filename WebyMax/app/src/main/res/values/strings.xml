@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">WebyMax</string>
+    <string name="page_title">WebyMax Hosting</string>
+    <string name="name_hint">Customer Name:</string>
+    <string name="hostplan_title">Hosting Plan:</string>
+    <string name="hoststartup_title">Startup</string>
+    <string name="hostgrowbig_title">Grow Big</string>
+    <string name="hostpremium_title">Premium</string>
+    <string name="additional_title">Additionals:</string>
+    <string name="adddb_title">Unlimited Database</string>
+    <string name="addstaging_title">Staging</string>
+    <string name="webspace_title">Web Space:</string>
+    <string name="province_hint">Province:</string>
+    <string name="date_hint">Sales Date:</string>
+    <string name="btn_title">Submit</string>
+
+    <string-array name="webspace_array">
+        <item>10GB</item>
+        <item>20GB</item>
+        <item>40GB</item>
+    </string-array>
+
+    <string-array name="province_array">
+        <item>Ontario</item>
+        <item>Quebec</item>
+        <item>Nova Scotia</item>
+        <item>New Brunswick</item>
+        <item>Manitoba</item>
+        <item>British Columbia</item>
+    </string-array>
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+

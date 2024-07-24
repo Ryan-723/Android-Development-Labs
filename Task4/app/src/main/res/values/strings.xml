@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Task4</string>
+    <string name="page_title">Top Restaurants</string>
+    <string name="review1">0.0</string>
+    <string name="app_title">NDGTask4</string>
+    <string name="TextViewTopRestaurants">Top Restaurants</string>
+    <string name="pleasesRateUs">Please rate us</string>
+    <string name="ratingValueText">0.0</string>
+    <string name="restaurant_title_Canoe">Canoe</string>
+    <string name="restaurant_Desc_Canoe">Discover Executive Chef Ron McKinlay’s latest eight-course tasting menu, a symphony of autumnal delights.</string>
+    <string name="restaurant_title_Aloette">Aloette</string>
+    <string name="restaurant_Desc_Aloette">Aloette -- which opened in 2017 at the corner of Queen Street and Spadina Avenue -- is the neighbourhood bistro as imagined by the Alo Food Group. It\'s where our taste for haute cuisine meets cravings for cheeseburgers and lemon meringue pie. Aloette is open daily for lunch and dinner. Walk-ins are encouraged</string>
+    <string name="restaurant_title_Scaramouche">Scaramouche</string>
+    <string name="restaurant_Desc_Scaramouche">Scaramouche offers contemporary cuisine in midtown with panoramic skyline views.\nA long standing Toronto favourite that has been offering excellent dining experiences based on trust, courtesy and consistency.\nWe are open from Tuesday-Saturday evenings.</string>
+    <string name="restaurant_title_Lena">Lena</string>
+    <string name="restaurant_Desc_Lena">Leña is an ode to matriarchal ideals at the table, to that style of cooking that percolates in all of us cooks.</string>
+    <string name="restaurant_title_Canuck">The Crazy Canuck</string>
+    <string name="restaurant_Desc_Canuck">Our passion for food is evident in every dish we create, and we take pride in sourcing the finest, freshest ingredients to ensure that each bite is a burst of flavor and quality.</string>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NDGMealDelivery</string>
+    <string name="page_title">MealDelivery</string>
+    <string name="name_hint">Customer Name:</string>
+    <string name="phone_hint">Phone Number:</string>
+    <string name="subsplan_hint">Subscription Plan:</string>
+    <string name="rdmonthly_title">Monthly</string>
+    <string name="rdyearly_title">Yearly</string>
+    <string name="plantype_hint">Plan Type:</string>
+
+    <string name="additionals_hint">Additionals:</string>
+    <string name="adddesigns_title">3L Lemonade</string>
+    <string name="addupdates_title">4L Milk</string>
+    <string name="typeofdesigns_hint">Type of Delivery:</string>
+    <string name="date_hint">Subscription Date:</string>
+    <string name="btn_title">Submit</string>
+
+</resources>
